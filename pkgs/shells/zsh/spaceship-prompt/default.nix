@@ -2,13 +2,13 @@
 
 stdenvNoCC.mkDerivation rec {
   pname = "spaceship-prompt";
-  version = "3.16.7";
+  version = "4.10.1";
 
   src = fetchFromGitHub {
     owner = "denysdovhan";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-dMP7mDzb0xLCP2l9j4SOP47bcpuBNSoXsDecVOvZaL8=";
+    sha256 = "sha256-EdG9t+hx2H7TGqfwTiQa/Z4JQbiqmURxJQjXWeuQ1Yk=";
   };
 
   strictDeps = true;
